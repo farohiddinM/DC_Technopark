@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Play';
+  src: local('Play'), url("./assets/fonts/Play-Regular.ttf") format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montez';
+  src: local('Montez'), url("./assets/fonts/Montez-Regular.ttf") format('opentype');
+  font-display: swap;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Play';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

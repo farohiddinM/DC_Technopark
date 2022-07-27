@@ -1,0 +1,39 @@
+.SwiperDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* position: relative; */
+}
+.SwiperDiv img {
+    width: 65%;
+    height: 100%;
+}
+.SwiperDiv p {
+    width: 30%;
+    font-size: 1vw;
+}
+@media (max-width: 600px) {
+    .SwiperDiv img {
+        width: 100%;
+        height: auto
+    }
+    .SwiperDiv {
+        flex-direction: column;
+    }
+
+    .SwiperDiv p {
+        text-align: center;
+        height: 150px;
+        display: flex;
+        align-items: flex-start;
+        line-height: 10px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 15px;
+    }
+  }
+
+ 
